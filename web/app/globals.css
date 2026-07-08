@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/*
+ * "PUR Beatmaker" design tokens: dark, clean, urban/premium palette.
+ * Accents (purple/blue/green/orange/pink) are meant to be used
+ * sparingly — active playback, tags, key actions — not as backgrounds.
+ * Full design system comes with the UX/UI step; this is the minimal
+ * palette needed to start building pages consistently.
+ */
+:root {
+  --background: #0b0b0d;
+  --foreground: #f2f1ed;
+  --surface: #1a1b1f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-electric-purple: #8b5cf6;
+  --color-night-blue: #1e3a8a;
+  --color-audio-green: #34d399;
+  --color-warm-orange: #f97316;
+  --color-neon-pink: #ec4899;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}

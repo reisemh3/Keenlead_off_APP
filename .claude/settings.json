@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub *)",
+      "Bash(find / -iname \"supabase.dart\" -path \"*supabase_flutter*\" 2>/dev/null)",
+      "Read(//c//**)",
+      "Bash(find \"/c/Users/HOME-PINOT/AppData/Local/Pub/Cache\" -iname \"supabase.dart\" 2>/dev/null)",
+      "Read(//c/Users/HOME-PINOT/AppData/Local/Pub/Cache/**)",
+      "Read(//c/Users/HOME-PINOT/AppData/Local/Pub/Cache/hosted/pub.dev/supabase_flutter-2.16.0/lib/src/**)"
+    ]
+  }
+}
